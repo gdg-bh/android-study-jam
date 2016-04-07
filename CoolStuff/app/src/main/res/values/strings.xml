@@ -14,7 +14,17 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="texto_sobre">Sobre o aplicativo</string>
+    <string name="texto_sobre">Sobre o aplicativo:
+        \nNecessitou apenas de 1 omelete, arroz e farofa! :)
+        \n
+        \nPractice for <b>Android Study Jams</b>
+        \n<b>Android Development for Beginners</b>
+        \n
+        \n#gdgbh #google #devstudyjam #bh
+        \n
+        \nApril 7th, 2016
+        \n<b>@jordansilva</b></string>
+
     <string name="name_jordan">Jordan Silva</string>
     <string name="mail_jordan">silva.jordan@gmail.com</string>
 </resources>

@@ -114,6 +114,7 @@ public class MainActivity extends AppCompatActivity
             // New fragment
             Fragment fragment = null;
             mCurrentId = id;
+            int title = R.string.app_name;
 
             // Verify which button was clicked and choose correct action for this
             switch (mCurrentId) {
@@ -131,6 +132,7 @@ public class MainActivity extends AppCompatActivity
                     break;
                 case R.id.nav_info:
                     fragment = InfoFragment.newInstance();
+                    title = R.string.sobre;
                     break;
                 default:
                     fragment = Tela1Fragment.newInstance();
@@ -146,6 +148,8 @@ public class MainActivity extends AppCompatActivity
 
             //Close navigation drawer (menu)
             mDrawerLayout.closeDrawer(GravityCompat.START);
+
+            getSupportActionBar().setTitle(title);
 
             return true;
         } else {
