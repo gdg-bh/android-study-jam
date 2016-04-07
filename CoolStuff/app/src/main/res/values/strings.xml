@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CoolStuff</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="first_text">Essa é a primeira activity!</string>
+    <string name="lista">Lista</string>
+    <string name="tela_1">Tela 1</string>
+    <string name="outros">Outros</string>
+    <string name="sobre">Sobre</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="texto_sobre">Sobre o aplicativo</string>
+    <string name="name_jordan">Jordan Silva</string>
+    <string name="mail_jordan">silva.jordan@gmail.com</string>
+</resources>
